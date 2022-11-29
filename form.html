@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="stylesheet_for_forms.css" type="text/css">
+
+
 <form action="http://www.example.com" method="get">
     <p>this is where the form controls are appear</p>
 </form>
@@ -5,19 +8,19 @@
 <form action="http://www.example.com" method="get">
     <p>
         Username:
-        <input type="text" name="username" size="15"
+        <input id="user" type="text" name="username" size="15"
         maxlength="30">
     </p>
     <p>
         Password:
-        <input type="password" name="Password" size="15"
+        <input id="pass" type="password" name="Password" size="15"
         maxlength="30">
     </p>
 </form>
 
 <form action="http://www.example.com" method="get">
     <p>What you think about this form.</p>
-    <textarea name="comments" id="" cols="30" rows="10">enter your remarks...</textarea>
+    <textarea id="com" name="comments" id="" cols="30" rows="10">enter your remarks...</textarea>
 </form>
 
 <form action="http://www.example.com" method="get">
@@ -51,7 +54,7 @@
 
 <form action="http://www.example.com" method="post">
     <p>upload your file:</p>
-    <input type="file" user="user-song" /><br />
+    <input class="main" type="file" user="user-song" /><br />
     <input type="submit" value="upload" />
 </form>
 
