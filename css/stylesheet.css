@@ -1,0 +1,56 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.upper {
+    text-transform: uppercase;
+} 
+
+#dp {
+    border-radius: 50px;
+}
+
+#first {
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+
+#second {
+    text-align: center;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+
+#third {
+    text-align: center;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+#fth {
+    border-radius: 5px;
+    background-color: cadetblue;    text-align: left;
+    padding: 6px;
+}
+
+#fith {
+    padding: 7px;
+    color: brown;
+    border-radius: 15px;
+    background-color: aquamarine;
+}
+
+#sth {
+    padding: 5px;
+    background-color: chocolate;
+    border-radius: 5px;
+}
+
+#disc {
+    list-style-type: none;
+}
+
+.a {
+    list-style-position: inside;
+}

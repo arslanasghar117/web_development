@@ -1,0 +1,30 @@
+#navbar {
+    background-color: aquamarine;
+}
+
+#list {
+    text-decoration: none;
+    
+}
+
+#header ,#about{
+    background-color: #18bc9c;
+
+}
+
+#projects img, #imgdp{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.navlink {
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.headings {
+    text-transform: uppercase;
+    font-size: 3rem;
+}

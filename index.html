@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <head>
     <title>Protfolio</title>
+    
+    <!--
+        first css file link 
+        <link rel="stylesheet" href="css/example.css">
+    -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    
+    <!--
+        second css file link
+    -->
+    
 </head>
 <body>
+    <div id="first">
+
     <table>
         <tr>
             <td><img src="img/dp.jpg" alt="profile" width="200" height="200"></td>
+            <td><img id="dp" src="img/dp.jpg" alt="profile" width="200" height="200"></td>
             <td>
-                <h1>Arslan Asghar</h1>
+                <h1 class="upper">Arslan Asghar</h1>
                 <p>I am a <b>BS Data Science</b> student in <strong>MNSUAM</strong> curently in 3rd semster and also learning <i>Web Development</i> from the book html and css by jon ducket under the guidence of <strong>Engineer Muhammad Ahmad
                 </strong> founder and ceo of <em><a href="http://kiazend.com/"  target="_blank">Kiazend</a></em> <br />
                 <abbr title="A Softwear Company">Kiazend</abbr></p>
             </td>
         </tr>
     </table>
+    </div>
     <hr size="4" noshade>
     
-    <h2>Education</h2>
+    <div id="second">
+    <h2 class="upper">Education</h2>
     <p>I have studied in AL-Noor group of school , <acronym title="Govt. Alamdar Hussain Islamia Degree College Multan">Govt. AHIDC Multan</acronym> , <a href="https://mnsuam.edu.pk/" target="_blank">MNSUAM</a> for BS Data Science(continue).</p>
-    <hr size="4" noshade>
 
-    <h2>Littel Background</h2>
+</div>
+    <hr size="4" noshade>
+<div id="third">
+    <h2 class="upper">Littel Background</h2>
     <p>
-    <ul>
+    <ul class="a">
     <li><strong>Shop Experiance</strong></li>
     <figure>
         <img src="img/Shop_img.webp" alt="shop" width="100" height="100">
@@ -40,9 +58,11 @@
     </ol>
     </ul>
     </p>
-    <hr size="4" noshade>
 
-    <h2>Anoter sub heading</h2>
+</div>
+    <hr size="4" noshade>
+<div id="fth">
+    <h2 class="upper">Anoter sub heading</h2>
     <p>I spend a lot of my time on coding in cpp during 1st and 2nd semster at <acronym title="Muhammad Nawaz Sharif University of Agriculture,Multan">MNSUAM</acronym></p>
     <h3 id="h2">sub heading</h3>
     <p><cite>a new paragraph</cite></p>
@@ -50,9 +70,11 @@
     <p>A <dfn>black hole</dfn> is a region of space from which nothng, not even light, can escap.</p>
     <address><p><a href="https://www.htmlandcssbook.com/"> book</a> link that i am using right now this book for beggnier to learn html and css</p></address>
     <p><del>hello</del> this <ins>mello</ins> <s>was $59</s></p>
-    <hr size="4" noshade>
 
-    <h2 id="ho">How to  make a call</h2>
+</div>
+    <hr size="4" noshade>
+<div id="fith">
+    <h2 class="upper" id="ho">How to  make a call</h2>
     <ol>
         <li>pick up a phone</li>
         <li>dial a desierd number</li>
@@ -60,14 +82,15 @@
     </ol>
     <hr size="4" noshade>
 
-    <h2>shoping list</h2>
+    <h2 class="upper">shoping list</h2>
     <ul>
         <li>buy a t shirt</li>
         <li>milk</li>
         <li>bread</li>
     </ul>
+</div>
     <hr size="4" noshade>
-
+<div id="sth">
     <dl>
         <dt>Html</dt>
         <dd>html is stand for hyper text markup language which is use as a structure of a website</dd>
@@ -90,13 +113,13 @@
     </ul>    
     <hr size="4" noshade>
 
-    <h4>how links work</h4>
+    <h4 class="upper">how links work</h4>
     <a href="another_page.html">wellcome page</a><br />
     <a href="#ho">how to make a call</a><br />
     <a href="#h2">sub heading</a><br />
     <a href="mailto:arslanasghar1565@gmial.com">arslan</a><br />
     <a href="#top">Top</a>
     <hr size="4" noshade>
-    
+</div>
 </body>
 </html>
