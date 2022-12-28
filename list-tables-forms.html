@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<head>
+    <title>list-table-forms</title>
+    <style type="text/css">
+        body {
+            font-size: large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+        h1 {
+            color: grey;
+        }
+        li {
+            line-height: 30px;
+        }
+
+        table {
+            border: 2px solid grey;
+            border-radius:6px;
+            border-spacing: 0px;
+        }
+        thead {
+            border-bottom: 20px solid #dd1111;
+            background-color: #016080;
+        }
+        thead:first-child {
+            border-radius: 5px;
+        }
+        thead:last-child {
+            border-radius: 50px;
+        }
+        tbody {
+            font-family: sans-serif;
+            border: 1px solid #333;
+        }
+        th {
+            color: white;
+            font-size: 16px;
+            text-transform: capitalize;
+
+        }
+        td {
+            font-size: 12px;
+            
+        }
+        tr.odd {
+            border: 20px solid #dd1111;
+            background-color: lightcyan;
+        }
+        tr.even {
+            background-color: lightblue;
+        }
+        fieldset {
+            margin: 20px 5px;
+            width: 300px;
+        }
+        fieldset:hover {
+            background-color: aquamarine;
+            
+        }
+        fieldset:focus {
+            background-color: tan;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <h1>Poetry Workshops</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore at voluptatum laboriosam dolor architecto similique cum.</p>
+        <ul>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+        <div id="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>lahore</th>
+                        <th>karachi</th>
+                        <th>multan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="odd">
+                        <td>A Poetic Prespective</td>
+                        <td>Sat, 4 Feb 2021 <br> 11am - 2pm
+                        </td>
+                        <td>Sat, 3 Mar 2012 <br> 11am - 2pm</td>
+                        <td>Sat. 17 Mar 2012 <br> 11am - 2pm</td>
+                    </tr>
+                    <tr class="even">
+                        <td>Walt Whitman at War</td>
+                        <td>Sat, 4 Feb 2021 <br> 11am - 2pm
+                        </td>
+                        <td>Sat, 3 Mar 2012 <br> 11am - 2pm</td>
+                        <td>Sat. 17 Mar 2012 <br> 11am - 2pm</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>Found Poems & Outsider Poetry</td>
+                        <td>Sat, 4 Feb 2021 <br> 11am - 2pm
+                        </td>
+                        <td>Sat, 3 Mar 2012 <br> 11am - 2pm</td>
+                        <td>Sat. 17 Mar 2012 <br> 11am - 2pm</td>
+                    </tr>
+                    <tr class="even">
+                        <td>Natural Death: An Exploration</td>
+                        <td>Sat, 4 Feb 2021 <br> 11am - 2pm
+                        </td>
+                        <td>Sat, 3 Mar 2012 <br> 11am - 2pm</td>
+                        <td>Sat. 17 Mar 2012 <br> 11am - 2pm</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="form">
+            <form action="">
+                <fieldset>
+                    <legend>Register your interest</legend>
+                    <p>Your name: <input type="text" name="name" id="name"></p>
+                    <p>Your email: <input type="email" name="email" id="email"></p>
+                    <p>Your closest center: <select name="center" id="center">
+                        <option value="lahore">lahore</option>
+                        <option value="multan">multan</option>
+                        <option value="karachi">karachi</option>
+                    </select></p>
+                    <p>Are you a member? <input type="radio" name="yes" id="y">yes
+                    <input type="radio" name="no" id="n">no</p>
+                    <p>Register <input type="submit" name="Register" id="reg"></p>
+                </fieldset>
+            </form>
+
+        </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<head>
+    <title>list-forms-tbles-2ndtry</title>
+    <style type="text/css">
+        body {
+            font-size: 90%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        li {
+            line-height: 1.5em;
+        }
+        table {
+            border-spacing: 0px;
+        }
+        th {
+            text-transform: capitalize;
+            color: cornflowerblue;
+        }
+        td, th {
+            padding: 9px;
+            font-size: 90%;
+            border: 1px solid #333;
+        }
+        tr.head th{
+            background-color: aquamarine;
+            border-bottom: 2px solid #333;
+        }
+        tr.head th:first-child{
+            border-top-left-radius: 5px;
+        }
+        tr.head th:last-child{
+            border-top-right-radius: 5px;
+        }
+        tr.odd {
+            background-color: burlywood;
+        }
+        tr.even {
+            background-color: bisque;
+        }
+        form {
+            width: 350px;
+        }
+        fieldset {
+            margin: 20px 0px 0px;
+            text-transform: capitalize;
+        }
+        input[type="text"] {
+            float: right;
+        }
+        select {
+            float: right;
+        }
+        input[type="submit"] {
+            float: right;
+            padding: 5px;
+            background-color: lawngreen;
+            border: 1px solid #333;
+            border-radius: 5px;
+            font-size: large;
+            margin: 1px;
+        }
+        input[type="text"]:hover, input[type="text"]:focus {
+            background-color: lightblue;
+        }
+        input[type="submit"]:hover, input[type="submit"]:focus {
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Poetry Workshop</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam itaque exercitationem commodi? Veritatis, placeat aperiam, amet autem ipsum ratione vitae impedit dicta laudantium officiis aliquid iure in minima optio ipsam?</p>
+    <ul>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem ipsum dolor sit.</li>
+    </ul>
+    <table>
+        <tr class="head">
+            <th></th>
+            <th>lahore</th>
+            <th>karachi</th>
+            <th>multan</th>
+        </tr>
+        <tr class="odd">
+            <th>a Poetic perspective</th>
+            <td>Sat, 4 Feb 2012 <br> 11am - 2pm</td>
+            <td>Sat, 4 Feb 2012 <br> 11am - 2pm</td>
+            <td>Sat, 4 Feb 2012 <br> 11am - 2pm</td>
+        </tr>
+        <tr class="even">
+            <th>walt whitman at war</th>
+            <td>Sat, 4 Feb 2012 <br> 11am - 2pm</td>
+            <td>Sat, 4 Feb 2012 <br> 11am - 2pm</td>
+            <td>Sat, 4 Feb 2012 <br> 11am - 2pm</td>
+        </tr>
+        <tr class="odd">
+            <th>found poems & outsider poetry</th>
+            <td>Sat, 4 Feb 2012 <br> 11am - 2pm</td>
+            <td>Sat, 4 Feb 2012 <br> 11am - 2pm</td>
+            <td>Sat, 4 Feb 2012 <br> 11am - 2pm</td>
+        </tr>
+        <tr class="even">
+            <th>natural dearth: an exploration</th>
+            <td>Sat, 4 Feb 2012 <br> 11am - 2pm</td>
+            <td>Sat, 4 Feb 2012 <br> 11am - 2pm</td>
+            <td>Sat, 4 Feb 2012 <br> 11am - 2pm</td>
+        </tr>
+    </table>
+    <form action="www.example.com" method="get">
+        <fieldset>
+            <legend>register your interest</legend>
+            <p><label for="name">your name: <input type="text" name="name"></label></p>
+            <p><label for="email">your email: <input type="text" name="email"></label></p>
+            <p><label for="location">your closest center: <select name="location" id="location">
+                <option value="la">lahore</option>
+                <option value="ka">karachi</option>
+                <option value="mul">multan</option>
+            </select></label></p>
+            <span>
+                are you a member?
+                <label for="member">
+                    <input type="radio" name="member" id="yes">yes
+                    <input type="radio" name="member" id="no">no
+                </label>
+            </span>
+        </fieldset>
+        <div>
+            <input type="submit" name="register">
+        </div>
+    </form>
+</body>
+</html>
