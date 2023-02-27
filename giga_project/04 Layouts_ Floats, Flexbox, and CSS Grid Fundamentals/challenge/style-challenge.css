@@ -6,6 +6,11 @@
   width: 800px;
   margin: 0 auto;
 }
+.main-main {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
 h2 {
   margin: 0px;
   padding: 0px;
@@ -16,10 +21,6 @@ h2 {
   font-family: sans-serif;
   font-size: 30px;
   text-transform: uppercase;
-}
-img {
-  width: 100%;
-  height: 100%;
 }
 #strong {
   font-weight: 900;
@@ -78,61 +79,48 @@ h2 {
   background-color: red;
   width: 20px;
   height: 20px;
-  display: inline-block;
 }
 .bo1 {
   background-color: blue;
   width: 20px;
   height: 20px;
-  display: inline-block;
 }
 .bo2 {
   background-color: brown;
   width: 20px;
   height: 20px;
-  display: inline-block;
 }
 .bo3 {
   background-color: yellow;
   width: 20px;
-  display: inline-block;
   height: 20px;
 }
 .bo4 {
   background-color: green;
   width: 20px;
-  display: inline-block;
   height: 20px;
 }
 .bo5 {
   background-color: black;
   width: 20px;
-  display: inline-block;
   height: 20px;
 }
-
-.first {
-  float: left;
-  width: 33%;
-  padding: 30px;
-  padding-bottom: 0px;
-}
-.second {
-  float: right;
-  width: 33%;
-  padding: 30px;
-  padding-bottom: 0px;
+.boo {
+  display: flex;
+  gap: 10px;
 }
 .thr {
-  float: left;
   width: 33%;
 }
-#strong {
-  float: left;
+.first {
+  margin-top: 10px;
+  width: 33%;
 }
-#free {
-  float: right;
+.second {
+  width: 33%;
 }
-#ready {
-  clear: both;
+#we {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

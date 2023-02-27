@@ -14,7 +14,6 @@
       }
       .el--3 {
         background-color: green;
-        height: 150px;
       }
       .el--4 {
         background-color: goldenrod;
@@ -40,6 +39,10 @@
         margin: 40px;
 
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        height: 300px;
+        display: none;
       }
 
       .container--2 {
@@ -53,6 +56,19 @@
         height: 600px;
 
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: 100px 200px 100px;
+        grid-template-rows: 200px 100px;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+      }
+
+      .el--3 {
+        height: 100px;
+        align-self: flex-start;
+        justify-self: flex-start;
       }
     </style>
   </head>
@@ -64,7 +80,7 @@
       <div class="el el--4">(4) are</div>
       <div class="el el--5">(5) amazing</div>
       <div class="el el--6">(6) languages</div>
-      <div class="el el--7">(7) to</div>
+      <!-- <div class="el el--7">(7) to</div> -->
       <div class="el el--8">(8) learn</div>
     </div>
 
