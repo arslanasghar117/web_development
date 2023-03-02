@@ -1,0 +1,226 @@
+@media screen and (min-width: 991px) {
+  * {
+    margin: 0px;
+    line-height: 1.5rem;
+  }
+  .nav {
+    display: flex;
+  }
+  .nav-logo > img {
+    width: 12vw;
+    height: 12vh;
+    position: relative;
+    left: 150px;
+  }
+  .nav-items {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 500px;
+  }
+  .nav-items > a {
+    color: black;
+    margin: 0px 15px 0px 0px;
+    text-decoration: none;
+  }
+  #hamburger,
+  #cross {
+    display: none;
+  }
+  .footer-wrapper {
+    width: 100%;
+    height: 600px;
+  }
+  footer {
+    background-color: black;
+  }
+  .footer-offices,
+  .footer-contacts,
+  .footer-legals {
+    display: flex;
+  }
+
+  .footer-office,
+  .footer-sm-links,
+  .footer-contact,
+  .footer-inquiry,
+  .footer-engage,
+  .footer-copyright,
+  .footer-kiazend,
+  .footer-legal {
+    width: 16vw;
+    padding: 0px 9vh;
+    margin-top: 50px;
+  }
+  .footer-sm-links a > img:hover {
+    width: 75px;
+    height: 75px;
+  }
+  h1,
+  h2,
+  h3,
+  p,
+  a {
+    color: white;
+  }
+  h1 {
+    font-weight: 900;
+    font-size: 32pt;
+    padding-bottom: 15px;
+  }
+  h3 {
+    font-weight: 900;
+    font-size: 24pt;
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 990px) and (min-width: 767px) {
+  * {
+    margin: 0px;
+    line-height: 1.5rem;
+  }
+  .nav {
+    display: flex;
+  }
+  .nav-logo > img {
+    width: 12vw;
+    height: 12vh;
+    position: relative;
+    left: 150px;
+  }
+  .nav-items {
+    display: none;
+  }
+  #hamburger,
+  #cross {
+    display: none;
+  }
+  .footer-wrapper {
+    width: 100%;
+    height: 600px;
+  }
+  footer {
+    background-color: black;
+  }
+  .footer-offices,
+  .footer-contacts,
+  .footer-legals {
+    display: flex;
+  }
+
+  .footer-office,
+  .footer-sm-links,
+  .footer-contact,
+  .footer-inquiry,
+  .footer-engage,
+  .footer-copyright,
+  .footer-kiazend,
+  .footer-legal {
+    width: 450px;
+    padding: 0px 50px;
+    margin-top: 60px;
+  }
+  .footer-sm-links a > img:hover {
+    width: 75px;
+    height: 75px;
+  }
+  h1,
+  h2,
+  h3,
+  p,
+  a {
+    color: white;
+  }
+  h1 {
+    font-weight: 900;
+    font-size: 32pt;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-weight: 900;
+    font-size: 24pt;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 766px) and (min-width: 300px) {
+  * {
+    margin: 0px;
+    line-height: 1.5rem;
+  }
+  .nav {
+    display: flex;
+  }
+  .nav-logo > img {
+    width: 12vw;
+    height: 12vh;
+    position: relative;
+    left: 80px;
+  }
+  .nav-items {
+    display: none;
+  }
+  #hamburger,
+  #cross {
+    display: none;
+  }
+  .footer-main {
+    padding: 10px 15px;
+  }
+  .footer-wrapper {
+    width: 100%;
+    height: 1200px;
+  }
+  footer {
+    background-color: black;
+  }
+  .footer-offices,
+  .footer-contacts,
+  .footer-legals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-office,
+  .footer-sm-links,
+  .footer-contact,
+  .footer-inquiry,
+  .footer-engage,
+  .footer-copyright,
+  .footer-kiazend,
+  .footer-legal {
+    width: 80vw;
+    padding: 0px 0px;
+    margin-top: 60px;
+  }
+  .footer-sm-links a > img:hover {
+    width: 75px;
+    height: 75px;
+  }
+
+  .footer-offices h1,
+  .footer-offices h3 {
+    font-weight: 400;
+    font-size: 18pt;
+  }
+  h1,
+  h2,
+  h3,
+  p,
+  a {
+    color: white;
+  }
+  h1 {
+    font-weight: 900;
+    font-size: 32pt;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-weight: 900;
+    font-size: 24pt;
+    margin-bottom: 10px;
+  }
+}
