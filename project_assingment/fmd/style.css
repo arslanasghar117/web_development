@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: serif;
+}
+.services-main {
+  background: linear-gradient(to right, #e9a5a1, #e4bb8d);
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  width: 100%;
+  font-size: 3vw;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 5vw;
+  margin: 0px 0px 10px 0px;
+}
+.side-sticker-text {
+  float: left;
+  width: 15vw;
+  height: 4vh;
+  transform: rotate(90deg);
+  position: relative;
+  top: 15vw;
+  font-size: 5vw;
+  letter-spacing: 3vw;
+  text-align: center;
+  left: -3vw;
+  color: #fff;
+  /* margin: 0px 0px; */
+  /* padding: 0px; */
+}
+
+.services-cards {
+  display: flex;
+  width: 80vw;
+  height: 50vw;
+  margin: 0px auto;
+}
+.services-card-wrapper {
+  display: flex;
+}
+.services-card {
+  margin: 9vw 2vh;
+  height: 34vw;
+  background-color: #f8e0c1;
+  border-radius: 10px;
+  transition: height 2s;
+}
+.services-card:hover {
+  height: 40%;
+}
+.card-outlook {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px rgba(35, 5, 5, 0.463);
+}
+.banner p {
+  background-color: rgba(51, 51, 51, 0.75);
+  width: 20vw;
+  height: 8vh;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+#rnd-description {
+  background-image: url(img/WhatsApp\ Image\ 2022-11-09\ at\ 15.36.2.jpeg);
+  ta
+}
+#design-studio {
+  background-image: url(img/WhatsApp\ Image\ 2022-11-09\ at\ 15.36.20.jpeg);
+}
+#productions {
+  background-image: url(img/WhatsApp\ Image\ 2022-11-09\ at\ 15.36.19.jpeg);
+}
+#operations {
+  background-image: url(img/WhatsApp\ Image\ 2022-11-09\ at\ 15.36.18.jpeg);
+}
+.card-description {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.card-description:hover {
+  opacity: 1;
+  background-color: #e7d3bc;
+  border-radius: 10px;
+  padding: 5px;
+}
